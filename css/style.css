@@ -199,7 +199,7 @@ iframe {
 
 /* Background images css */
 .bg-home {
-  background: url("http://placehold.it/2000x1333");
+  background: url(../images/lost-in-chat.jpg);
   background-size: cover;
   background-color: #222328;
   position: relative;
@@ -267,7 +267,7 @@ iframe {
 }
 
 .btn-custom {
-  background-color: #27ae61;
+  background-color: #E0705C;
 }
 
 .btn-secondary {
@@ -1057,12 +1057,15 @@ iframe {
 
 .bg-dark {
   color: white;
-  
 }
 
-.bg-dark a {
-  color: #3672FF;
+a {
+  color: #5661E7;
   font-weight: bold;
+}
+
+.bg-custom {
+  background: #5661E7;
 }
 
 .bg-dark a:hover {
@@ -1073,3 +1076,24 @@ iframe {
   margin: 30px auto 0 auto;
 }
 
+.logo span {
+  margin-right: 4px;
+}
+
+.logo img {
+  height: 22px;
+  padding-bottom: 4px;
+}
+
+.is-sticky .navbar-custom {
+    background: #F8D691;
+}
+
+.is-sticky .logo span {
+  color: #5661E7;
+}
+
+.is-sticky .navbar-custom .navbar-nav li.active a {
+
+  color: #E0705C !important;
+}
