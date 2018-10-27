@@ -11,7 +11,14 @@
         <meta content="" name="author" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="shortcut icon" href="favicon.ico">
 
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
@@ -71,13 +78,13 @@
                             <a href="#home">Home</a>
                         </li>
                         <li>
-                            <a href="#how">How does it work?</a>
+                            <a href="#about">About</a>
                         </li>
                         <li>
                             <a href="#install">Install</a>
                         </li>                        
                         <li>
-                            <a href="#paper">Our Paper</a>
+                            <a href="#paper">Paper</a>
                         </li>
                         <li>
                             <a href="#team">Team</a>
@@ -110,8 +117,7 @@
                                             <h1>Lost in  group chat at work again?</h1>
                                             <h3><em>Tl;dr</em>. Tilda is a Slack plugin that helps teams tame the chaos of group chat through collaborative tagging and summarization.</h3>
                                             <p>&nbsp;</p>
-                                            <!--<a class="btn btn-custom">Install Tilda</a>-->
-                                            <a href="https://slack.com/oauth/authorize?client_id=267407878533.441344180162&scope=channels:history,chat:write:bot,bot,commands,reactions:read,stars:read"><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /></a>
+                                            <a href="#install" class="btn btn-custom">Install Tilda</a>
                                         </div>
                                     </div>
                                 </div>
@@ -126,17 +132,19 @@
 
 
         <!-- HOWS IT WORK -->
-        <section class="section bg-lightgray" id="how">
+        <section class="section bg-lightgray" id="about">
             <div class="container">
 
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="title-box text-center">
-                            <h2>How does Tilda Work?</h2>
-                        </div>
+                <div class="row project-about">
+                    <div class="title-box text-center">
+                        <p>What is Tilda?</p>
+                        <h3>Tilda is a research project exploring how to<br/>improve collaboration over group chat.</h3>
+                        <p class="desc">This instance of Tilda is hosted by <a href="http://people.csail.mit.edu/axz/">MIT</a>, based on an open source project from Microsoft.<br/>
+                            To host your own Tilda instance or to contribute, visit the <a href="https://github.com/Microsoft/tilda">project Github</a>.</p>
                     </div>
                 </div>
                 <!-- end row -->
+
 
                 <div class="row">
                     <div class="col-sm-4">
@@ -176,55 +184,14 @@
         <!-- INSTALL -->
         <section class="section" id="install">
             <div class="container">
-
-                <div class="row vertical-content features">
-                    <div class="col-sm-6">
-
-                        <div class="features-box">
-                            <h3>Want to learn on a mobile device?</h3>
-                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted.</p>
+ 
+                <div class="row project-about">
+                        <div class="title-box text-center">
+                            <p>How do I install Tilda?</p>
+                            <h3>Tilda is a Slack add-on.<br/>To add Tilda to your Slack, sign-in below.</h3>
+                            <p class="desc">In order to connect Tilda, you must be an admin of your Slack group.</p>
+                            <a href="https://slack.com/oauth/authorize?client_id=267407878533.441344180162&scope=channels:history,chat:write:bot,bot,commands,reactions:read,stars:read"><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /></a>
                         </div>
-
-                    </div> <!-- end col -->
-
-                    <div class="col-sm-6 text-center">
-                        <img src="images/icons/statistics.svg" width="240" alt="img">
-                    </div> <!-- end col -->
-                </div>
-                <!-- end row -->
-
-
-                <div class="row vertical-content features">
-
-                    <div class="col-sm-6 text-center">
-                        <img src="images/icons/timeline.svg" width="240" alt="img">
-                    </div> <!-- end col -->
-
-                    <div class="col-sm-6">
-
-                        <div class="features-box">
-                            <h3>Mobile first framework</h3>
-                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted.</p>
-                        </div>
-
-                    </div> <!-- end col -->
-
-                </div>
-                <!-- end row -->
-
-                <div class="row vertical-content features">
-                    <div class="col-sm-6">
-
-                        <div class="features-box">
-                            <h3>Free storage for new users</h3>
-                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted.</p>
-                        </div>
-
-                    </div> <!-- end col -->
-
-                    <div class="col-sm-6 text-center">
-                        <img src="images/icons/biohazard.svg" width="240" alt="img">
-                    </div> <!-- end col -->
                 </div>
                 <!-- end row -->
 
@@ -269,7 +236,8 @@
 
 
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-3">
                         <div class="team-box">
                             <img src="images/amy.jpg" class="img-circle img-thumbnail" alt="">
                             <h4>Amy Zhang</h4>
@@ -286,7 +254,7 @@
                         </div>
                     </div> <!-- end col -->
 
-                    <div class="col-sm-6">
+                    <div class="col-sm-3">
                         <div class="team-box">
                             <img src="images/justin.png" class="img-circle img-thumbnail" alt="">
                             <h4>Justin Cranshaw</h4>
@@ -301,6 +269,8 @@
                             </ul>
                         </div>
                     </div> <!-- end col -->
+                    <div class="col-sm-3"></div>
+
                 </div>
                 <!-- end row -->
 

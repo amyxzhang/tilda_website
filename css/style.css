@@ -1097,3 +1097,21 @@ a {
 
   color: #E0705C !important;
 }
+
+.project-about {
+  
+}
+
+.project-about .title-box {
+  padding-bottom: 5px;
+}
+
+
+.title-box .desc {
+  text-transform: none;
+  font-weight: 300;
+  letter-spacing: 0px;
+  color: black;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
