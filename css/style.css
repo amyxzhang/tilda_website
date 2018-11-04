@@ -1156,3 +1156,10 @@ table {
   margin-top: 2px;
   margin-bottom: 2px;
 }
+
+p.privacy {
+  margin-top: 15px;
+  font-size: 9pt;
+  line-height: 18px;
+  color: #989898;
+}
