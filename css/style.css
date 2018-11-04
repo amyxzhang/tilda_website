@@ -1098,9 +1098,6 @@ a {
   color: #E0705C !important;
 }
 
-.project-about {
-  
-}
 
 .project-about .title-box {
   padding-bottom: 5px;
@@ -1124,4 +1121,38 @@ td {
 
 table {
 	margin: 0px auto; 
+}
+
+.bg-tilda-red {
+  background: #c66553;
+  color: white;
+}
+
+.bg-tilda-red table {
+  background: #f3f3f3;
+  color: black;
+  margin-top: 15px;
+  margin-bottom : 25px;
+}
+
+.bg-tilda-red table td {
+  padding: 8px 15px;
+  border-color: #e8e4e4;
+}
+
+.bg-tilda-red ol {
+  margin-top: 30px;
+  border-bottom: solid #e3b5ac 1px;
+  border-top: solid #e3b5ac 1px;
+  padding: 15px 0;
+  margin-bottom: 60px;
+}
+
+.bg-tilda-red ol p {
+  margin-bottom: 18px;
+}
+
+.bg-tilda-red ol li {
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
