@@ -1115,3 +1115,13 @@ a {
   padding-top: 5px;
   padding-bottom: 20px;
 }
+
+td {
+	padding: 5px;
+	border: 1px #cccccc solid;
+	text-align: left;
+}
+
+table {
+	margin: 0px auto; 
+}
